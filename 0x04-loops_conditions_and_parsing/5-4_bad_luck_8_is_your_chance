@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #display bad luck at 4th line, good luck at 8th and holberton school for the rest.
 count=1
-while [ $count -lt 10 ];
+while [ $count -lt 11 ];
 do
 	if [ $count -eq 4 ];
 	then
