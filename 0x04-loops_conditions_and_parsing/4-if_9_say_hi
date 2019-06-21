@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#the script display 10 times holberton school except in line 9.
+count=2
+while [ $count -le 10 ];
+do
+	echo Holberton School
+	if [ "$count" -eq "9" ]
+	then
+		echo Hi
+	fi
+	let count++
+done
+
