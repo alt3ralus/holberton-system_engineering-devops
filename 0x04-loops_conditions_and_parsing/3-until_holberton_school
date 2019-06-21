@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# dsiplay 10 times holberton school with until loop
+
+COUNT=0
+until [ $COUNT -gt 10 ];
+do
+	echo Holberton School
+	let COUNT++
+done
+	
