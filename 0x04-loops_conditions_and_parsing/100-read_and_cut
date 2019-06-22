@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# displays content in etc/passwd
+while read file
+do
+    echo $file | cut -d ":" -f1,3,6
+done < /etc/passwd
