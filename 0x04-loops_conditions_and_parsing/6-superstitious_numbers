@@ -14,7 +14,6 @@ do
 	17)
 		echo bad luck from Italy
 		;;
-	*)
 	esac
 	let count++
 done
